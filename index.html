@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>MyRuns - Gerenciador de corridas Compartilhadas</title>
+		<meta charset="utf-8">
+		<meta name="description" content="MyRuns">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		
+	</head>
+	
+	<body ng-app="myruns">
+		<div ng-include="View/commons/menu.html"></div>
+		<div class="container" ng-view></div>
+		<div ng-include="View/commons/footer.html"></div>
+		
+		<!-- Bibliotecas CSS e Jquery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		
+		<!-- Biblioteca AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
+	</body>
+</html>
